@@ -1,3 +1,42 @@
+/* Global */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*Navigation*/
+
+.front-page {
+  height: 100vh;
+  position: relative;
+  background-image: url('../images/Nowy_Jork.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.front-page nav {
+  margin: 15px auto;
+  position: absolute;
+}
+
+.front-page nav div {
+  margin: auto;
+}
+
+nav div .row {
+  max-width: 2000px;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -6,8 +45,15 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-left: 20px;
+  text-align: left;
 }
 
-.brand-logo {
-  margin: 16px 0;
+.front-page {
+  max-height: 100vh;
 }
+
+/*
+.front-page {
+  height: 100vh;
+  background-image: url('images/Domki_norweskie.jpg');
+}*/

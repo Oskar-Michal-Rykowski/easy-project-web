@@ -1,3 +1,40 @@
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*Navigation*/
+.front-page {
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/Nowy_Jork.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.front-page nav {
+  margin: 15px auto;
+  position: absolute;
+}
+
+.front-page nav div {
+  margin: auto;
+}
+
+nav div .row {
+  max-width: 2000px;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -6,9 +43,16 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-left: 20px;
+  text-align: left;
 }
 
-.brand-logo {
-  margin: 16px 0;
+.front-page {
+  max-height: 100vh;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFCQUFxQjtFQUNyQixVQUFVO0FDQ1o7O0FERUE7RUFDRSxxQkFBcUI7RUFDckIsaUJBQWlCO0FDQ25COztBREVBO0VBQ0UsY0FBYztBQ0NoQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+
+/*
+.front-page {
+  height: 100vh;
+  background-image: url('images/Domki_norweskie.jpg');
+}*/
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7OztFQUdFLHNCQUFzQjtBQ0F4Qjs7QURHQTtFQUNFLFNBQVM7QUNBWDs7QURHQSxhQUFBO0FBRUE7RUFDRSxhQUFhO0VBQ2Isa0JBQWtCO0VBQ2xCLGdEQUFnRDtFQUNoRCxzQkFBc0I7RUFDdEIsNEJBQTRCO0FDRDlCOztBRElBO0VBQ0UsZUFBZTtBQ0RqQjs7QURJQTtFQUNFLGlCQUFpQjtFQUNqQixrQkFBa0I7QUNEcEI7O0FESUE7RUFDRSxZQUFZO0FDRGQ7O0FESUE7RUFDRSxpQkFBaUI7QUNEbkI7O0FESUE7RUFDRSxxQkFBcUI7RUFDckIsVUFBVTtBQ0RaOztBRElBO0VBQ0UscUJBQXFCO0VBQ3JCLGlCQUFpQjtFQUNqQixnQkFBZ0I7QUNEbEI7O0FESUE7RUFDRSxpQkFBaUI7QUNEbkI7O0FESUE7Ozs7RUNFRSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
