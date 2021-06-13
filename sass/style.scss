@@ -151,13 +151,28 @@ footer li {
   font-size: 30px;
   height: 60px;
   width: 60px;
-  border: 2px solid $color-two;
+
   border-radius: 100%;
   background-color: $color-two;
   text-align: center;
-  line-height: 60px;
+  line-height: 62px;
 }
 
 footer li p {
   display: none;
+}
+
+footer a {
+  color: $color-one;
+}
+
+footer li:hover {
+  transform: scale(1.1);
+  background-color: $color-one;
+  color: $color-two;
+  transition: 1s;
+
+  a {
+    color: $color-two;
+  }
 }
