@@ -1,2 +1,14 @@
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.brand-logo {
+  margin: 16px 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHFCQUFxQjtFQUNyQixVQUFVO0FDQ1o7O0FERUE7RUFDRSxxQkFBcUI7RUFDckIsaUJBQWlCO0FDQ25COztBREVBO0VBQ0UsY0FBYztBQ0NoQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
