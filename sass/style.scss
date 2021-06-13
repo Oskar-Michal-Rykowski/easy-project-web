@@ -83,9 +83,10 @@ nav ul li {
 
 .city-goals i {
   font-size: 70px;
+  color: $color-one;
   height: 120px;
   width: 120px;
-  border: 4px solid black;
+  border: 4px solid $color-one;
   border-radius: 100%;
   text-align: center;
   line-height: 110px;
@@ -93,6 +94,11 @@ nav ul li {
 
 .icon-1 {
   padding-left: 8px;
+}
+
+.city-goals i:hover {
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 /*Resurces*/
@@ -116,6 +122,7 @@ nav ul li {
   width: 100%;
   position: absolute;
   object-fit: cover;
+  transition: 1s;
 }
 
 .box h2 {
