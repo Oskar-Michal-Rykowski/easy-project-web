@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-/*Navigation*/
+/*Front page*/
 
 .front-page {
   height: 100vh;
@@ -52,8 +52,18 @@ nav ul li {
   max-height: 100vh;
 }
 
-/*
-.front-page {
-  height: 100vh;
-  background-image: url('images/Domki_norweskie.jpg');
-}*/
+/*City Goals*/
+
+.city-goals {
+  height: 50vh;
+}
+
+.city-goals-title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.city-goals .feature {
+  text-align: center;
+  margin-top: 50px;
+}
