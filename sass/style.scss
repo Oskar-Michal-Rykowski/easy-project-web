@@ -122,7 +122,23 @@ nav ul li {
   position: absolute;
   bottom: 15px;
   font-size: 50px;
+}
+
+.resources a {
   color: $color-one;
+  text-decoration: none;
+}
+
+.resources .box:hover {
+  img {
+    filter: brightness(50%);
+    transition: 1s;
+  }
+
+  a {
+    color: white;
+    transition: 1s;
+  }
 }
 
 .box p {
