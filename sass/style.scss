@@ -1,3 +1,8 @@
+/*Variables*/
+
+$color-one: #f29f05;
+$color-two: #f2f2f2;
+
 /* Global */
 
 *,
@@ -88,4 +93,71 @@ nav ul li {
 
 .icon-1 {
   padding-left: 8px;
+}
+
+/*Resurces*/
+
+.resources {
+  padding: 10px 200px;
+  height: 100vh;
+  background-color: $color-two;
+}
+
+.box {
+  height: 300px;
+  margin: 30px 50px;
+  position: relative;
+  background: white;
+}
+
+.box img {
+  left: 0;
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.box h2 {
+  position: absolute;
+  bottom: 15px;
+  font-size: 50px;
+  color: $color-one;
+}
+
+.box p {
+  position: absolute;
+  bottom: 1px;
+}
+
+/*Footer*/
+
+footer {
+  padding: 10px 200px;
+}
+
+footer h6 {
+  font-size: 15px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  border: 2px solid $color-two;
+  border-radius: 100%;
+  background-color: $color-two;
+  text-align: center;
+  line-height: 60px;
+}
+
+footer li p {
+  display: none;
 }
