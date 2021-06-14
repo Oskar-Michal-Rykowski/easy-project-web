@@ -3,6 +3,8 @@
 $color-one: #f29f05;
 $color-two: #f2f2f2;
 
+$font-main: 'Viaoda Libre', cursive;
+
 /* Global */
 
 *,
@@ -13,6 +15,7 @@ $color-two: #f2f2f2;
 
 body {
   margin: 0;
+  font-family: $font-main;
 }
 
 /*Front page*/
@@ -98,6 +101,7 @@ nav ul li a {
 }
 
 .slogans {
+  font-family: $font-main;
   position: absolute;
   margin-top: 20%;
   text-align: center;
