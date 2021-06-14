@@ -57,6 +57,10 @@ body {
   margin: auto;
 }
 
+.button-menu {
+  display: none;
+}
+
 nav div .row {
   max-width: 2000px;
 }
@@ -288,6 +292,28 @@ footer li:hover {
   footer ul {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  footer h6 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1500px) {
+  .box h2 {
+    font-size: 30px;
+    bottom: 30px;
+  }
+}
+@media (max-width: 1500px) {
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer {
+    padding: 10px;
+    flex-direction: column-reverse;
   }
 
   footer h6 {
