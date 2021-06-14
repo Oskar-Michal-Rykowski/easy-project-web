@@ -18,6 +18,10 @@ body {
   font-family: $font-main;
 }
 
+.section-decription h1 {
+  font-size: 30px;
+}
+
 /*Front page*/
 
 .brand-logo i {
@@ -129,17 +133,12 @@ nav ul li a {
 /*City Goals*/
 
 .city-goals {
-  height: 50vh;
   margin: 10px 200px;
 }
 
 .section-decription {
   text-align: center;
   margin-top: 50px;
-}
-
-.section-decription h1 {
-  font-size: 30px;
 }
 
 .city-goals .feature {
@@ -171,7 +170,6 @@ nav ul li a {
 
 .resources {
   padding: 10px 200px;
-  height: 100vh;
   background-color: $color-two;
 }
 
@@ -264,5 +262,17 @@ footer li:hover {
 
   a {
     color: $color-two;
+  }
+}
+
+/*Media*/
+
+@media (max-width: 767px) {
+  .city-goals {
+    margin: 10px 30px;
+  }
+
+  .city-goals .row {
+    flex-direction: column;
   }
 }
