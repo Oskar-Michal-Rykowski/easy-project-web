@@ -175,7 +175,7 @@ nav ul li a {
 
 .box {
   height: 300px;
-  margin: 30px 50px;
+  margin: 30px;
   position: relative;
   background: white;
 }
@@ -274,5 +274,23 @@ footer li:hover {
 
   .city-goals .row {
     flex-direction: column;
+  }
+
+  .resources {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+    flex-direction: column-reverse;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer h6 {
+    text-align: center;
   }
 }
