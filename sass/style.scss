@@ -17,6 +17,18 @@ body {
 
 /*Front page*/
 
+.brand-logo i {
+  font-size: 70px;
+}
+
+.brand-logo a {
+  color: $color-one;
+}
+
+.brand-logo a:hover {
+  color: $color-two;
+}
+
 .front-page {
   height: 100vh;
   position: relative;
@@ -51,6 +63,15 @@ nav ul li {
   display: inline-block;
   margin-left: 20px;
   text-align: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: $color-one;
 }
 
 .front-page {
