@@ -3,7 +3,7 @@
 $color-one: #f29f05;
 $color-two: #f2f2f2;
 
-$font-main: 'Viaoda Libre', cursive;
+$font-main: 'Signika', sans-serif;
 
 /* Global */
 
@@ -102,6 +102,7 @@ nav ul li a {
 
 .slogans {
   font-family: $font-main;
+  font-size: 30px;
   position: absolute;
   margin-top: 20%;
   text-align: center;
@@ -132,9 +133,13 @@ nav ul li a {
   margin: 10px 200px;
 }
 
-.city-goals-title {
+.section-decription {
   text-align: center;
   margin-top: 50px;
+}
+
+.section-decription h1 {
+  font-size: 30px;
 }
 
 .city-goals .feature {
