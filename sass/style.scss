@@ -101,7 +101,7 @@ nav ul li {
   transition: 1s;
 }
 
-/*Resurces*/
+/*Resources*/
 
 .resources {
   padding: 10px 200px;
@@ -134,6 +134,7 @@ nav ul li {
 .resources a {
   color: $color-one;
   text-decoration: none;
+  transition: 1s;
 }
 
 .resources .box:hover {
