@@ -61,8 +61,10 @@ body {
   display: none;
 }
 
-nav div .row {
+nav .row {
   max-width: 2000px;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -80,6 +82,10 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+
+.menu-list {
+  margin-left: 200px;
 }
 
 .menu ul ul {
@@ -272,6 +278,15 @@ footer li:hover {
 /*Media*/
 
 @media (max-width: 767px) {
+  .menu-list {
+    font-size: 15px;
+  }
+
+  .slogans {
+    font-size: 20px;
+    margin-top: 200px;
+  }
+
   .city-goals {
     margin: 10px 30px;
   }
@@ -306,6 +321,10 @@ footer li:hover {
   }
 }
 @media (max-width: 1500px) {
+  .button-menu {
+    display: inline-block;
+  }
+
   footer ul {
     display: flex;
     justify-content: space-evenly;
