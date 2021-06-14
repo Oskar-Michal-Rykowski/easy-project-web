@@ -63,6 +63,7 @@ nav ul li {
   display: inline-block;
   margin-left: 20px;
   text-align: left;
+  position: relative;
 }
 
 nav ul li a {
@@ -70,8 +71,26 @@ nav ul li a {
   color: black;
 }
 
-nav ul li a:hover {
+.menu ul ul {
+  display: none;
+}
+
+.menu ul ul li {
+  display: block;
+  margin: 10px 0;
+  width: 100px;
+}
+
+.menu ul li a:hover {
   color: $color-one;
+}
+
+.menu ul li:hover {
+  ul {
+    display: block;
+    position: absolute;
+    transform: 1s;
+  }
 }
 
 .front-page {
