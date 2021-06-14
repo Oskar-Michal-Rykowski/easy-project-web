@@ -2,6 +2,8 @@
 
 $color-one: #f29f05;
 $color-two: #f2f2f2;
+$color-three: black;
+$color-four: white;
 
 $font-main: 'Signika', sans-serif;
 
@@ -89,7 +91,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: $color-three;
 }
 
 .menu-list {
@@ -142,8 +144,8 @@ nav ul li a {
 
 .button:hover {
   border: none;
-  background: black;
-  color: white;
+  background: $color-three;
+  color: $color-four;
   transition: 1s;
 }
 
@@ -194,7 +196,7 @@ nav ul li a {
   height: 300px;
   margin: 30px;
   position: relative;
-  background: white;
+  background: $color-four;
 }
 
 .box img {
@@ -225,7 +227,7 @@ nav ul li a {
   }
 
   a {
-    color: white;
+    color: $color-four;
     transition: 1s;
   }
 }
